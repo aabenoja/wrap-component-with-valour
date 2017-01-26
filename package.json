@@ -1,6 +1,6 @@
 {
   "name": "wrap-component-with-valour",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrap a component with client side validation functionality using the Valour library",
   "main": "lib/wrap-component-with-valour.js",
   "scripts": {
