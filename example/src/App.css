@@ -1,0 +1,11 @@
+.App {
+  padding: 20px;
+}
+
+.label-text {
+  margin-right: 5px;
+}
+
+.error {
+  color: red;
+}
