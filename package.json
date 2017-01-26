@@ -1,0 +1,25 @@
+{
+  "name": "wrap-component-with-valour",
+  "version": "1.0.0",
+  "description": "Wrap a component with client side validation functionality using the Valour library",
+  "main": "src/wrap-component-with-valour.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "valour",
+    "validation"
+  ],
+  "author": "Jacob Rios <rios.jacob@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.noop": "^3.0.1",
+    "react": "^15.4.2",
+    "valour": "0.0.24"
+  },
+  "peerDependencies": {
+    "react": ">=0.14",
+    "valour": ">=0.0.24"
+  }
+}
