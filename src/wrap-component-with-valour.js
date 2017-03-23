@@ -54,8 +54,9 @@ export default function wrapComponentWithValour(WrappedComponent) {
 
       const validationResult = valour.getResult(formName)[valueName];
       const isValid = validationResult.valid !== undefined ? validationResult.valid : false;
-      const newState = { isValid };
-      this.setState(newState, () => onValidationStateChanged(valueName, value, isValid));
+      const message = validationResult.messages !== undefined ? validationResult.messages[0] : null;
+      const newState = { isValid, message };
+      this.setState(newState, () => onValidationStateChanged(valueName, value, isValid, message));
     }
 
     render() {
